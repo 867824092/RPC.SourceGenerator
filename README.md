@@ -1,1 +1,3 @@
 # RPC.SourceGenerator
+
+本示例项目目标是想通过Socket+Pipelines+SourceGenerator实现RPC远程调用功能，目前只扩展了Kestrel的ConnectionHandler通过自定义协议，自定义管道处理Tcp请求，未实现最终目标，后续会继续完善。
